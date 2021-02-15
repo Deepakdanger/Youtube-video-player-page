@@ -9,69 +9,74 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: #606060;
 }
 nav {
   display: flex;
   justify-content: space-between;
   position: fixed;
   align-items: center;
-  height: 40px;
-  margin: 20px;
+  height: 60px;
+
   width: 95vw;
   margin-left: 25px;
   align-items: center;
+  background-color: #fff;
 }
-.start-nav{
+.start-nav {
   display: flex;
   align-items: center;
-
 }
 .fas {
   width: 35px;
+  cursor: pointer;
 }
 .fa-bars {
   margin-right: 0px;
   color: #606060;
 }
-
+.y-search {
+  position: relative;
+  padding: 0 10px;
+  border: 1px solid #979595;
+}
 
 .y-logo {
   margin-left: 0px;
   width: 80px;
   height: 22px;
 }
-.middle-nav{
+.middle-nav {
   display: flex;
   align-items: center;
 }
-.y-search{
+.y-search {
   width: 500px;
   height: 33px;
 }
-.fa-keyboard{
+.fa-keyboard {
   position: absolute;
-  left: 10;
+  display: inline-block;
+  left: 15;
 }
-.fa-search{
-
-}
-.s-btn{
+.s-btn {
   height: 33px;
   width: 65px;
 }
-.fa-microphone{
+.fa-microphone {
   margin-left: 10px;
+  color: #606060;
 }
-.end-nav{
+.end-nav {
   display: flex;
   align-items: center;
   margin-left: 10px;
- }
-.apps{
+}
+.apps {
   margin-left: 10px;
   width: 30px;
 }
-.fa-bell{
+.fa-bell {
   margin-left: 15px;
 }
 .avatar {
@@ -83,19 +88,18 @@ nav {
   margin-top: 100px;
   margin-left: 85px;
 }
-.v_title{
- margin-top: 15px;
- 
+.v_title {
+  margin-top: 15px;
 }
-.videos_d{
+.videos_d {
   display: flex;
   margin-top: 15px;
   align-items: center;
 }
-.fa-thumbs-up{
+.fa-thumbs-up {
   margin-left: 160px;
 }
-.da{
+.da {
   margin-left: 20px;
 }
 .avatar1 {

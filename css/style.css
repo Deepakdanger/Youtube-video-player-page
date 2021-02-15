@@ -19,22 +19,87 @@ nav {
   margin: 20px;
   width: 95vw;
   margin-left: 25px;
+  align-items: center;
+}
+.start-nav{
+  display: flex;
+  align-items: center;
+
 }
 .fas {
-  width: 50px;
+  width: 35px;
 }
 .fa-bars {
+  margin-right: 0px;
   color: #606060;
 }
 
+
 .y-logo {
+  margin-left: 0px;
   width: 80px;
-  height: 20px;
+  height: 22px;
+}
+.middle-nav{
+  display: flex;
+  align-items: center;
+}
+.y-search{
+  width: 500px;
+  height: 33px;
+}
+.fa-keyboard{
+  position: absolute;
+  left: 10;
+}
+.fa-search{
+
+}
+.s-btn{
+  height: 33px;
+  width: 65px;
+}
+.fa-microphone{
+  margin-left: 10px;
+}
+.end-nav{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+ }
+.apps{
+  margin-left: 10px;
+  width: 30px;
+}
+.fa-bell{
+  margin-left: 15px;
 }
 .avatar {
-  width: 50px;
+  width: 38px;
+  height: 38px;
   border-radius: 30px;
 }
 .video {
   margin-top: 100px;
+  margin-left: 85px;
+}
+.v_title{
+ margin-top: 15px;
+ 
+}
+.videos_d{
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.fa-thumbs-up{
+  margin-left: 160px;
+}
+.da{
+  margin-left: 20px;
+}
+.avatar1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
 }
